@@ -4,30 +4,29 @@ import ProductCard from '../productCard/productCard';
 const products = [
   {
     id: 1,
-    name: 'AI Analytics Pro',
-    description: 'Advanced AI-powered analytics platform for real-time insights and predictions.',
-    price: 99,
+    name: 'Cair Drive',
+    description: 'Advanced AI-powered driver camera system for real-time behavior analysis and fleet safety.',
     rating: 4.8,
-    image: 'https://images.unsplash.com/photo-1551288049-b1bd52206d29?auto=format&fit=crop&w=800&q=80', 
-    features: ['Real-time data processing', 'Predictive analytics', 'Custom dashboards']
+    image: 'https://images.unsplash.com/photo-1649472307167-5014126dd571?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZHJpdmVyJTIwbW9uaXRvcmluZ3xlbnwwfHwwfHx8MA%3D%3D',
+    features: ['Real-time driver behavior monitoring', 'Drowsiness and distraction detection', 'Instant safety alerts'],
+    link: 'https://drive.cair.center/'
   },
   {
     id: 2,
-    name: 'Neural Network Suite',
-    description: 'Comprehensive toolkit for building and deploying neural networks at scale.',
-    price: 149,
+    name: 'Cair Monitoring',
+    description: 'Cutting-edge security and monitoring solution powered by edge computing for real-time insights.',
     rating: 4.9,
-    image: 'https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=800&q=80',
-    features: ['Deep learning frameworks', 'Cloud integration', 'Model optimization']
+    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80',
+    features: ['Real-time security monitoring', 'Instant alerts and insights', 'Customizable security solutions'],
+    link: 'https://monitoring.cair.center/'
   },
   {
     id: 3,
-    name: 'AI Chatbot Builder',
-    description: 'Create intelligent chatbots with natural language processing capabilities.',
-    price: 79,
+    name: 'Journey Management System (JMS)',
+    description: 'Intelligent journey management system to optimize travel safety and efficiency (Coming soon).',
     rating: 4.7,
-    image: 'https://images.unsplash.com/photo-1593720213428-28a5b9e94613?auto=format&fit=crop&w=800&q=80',
-    features: ['NLP integration', 'Multi-platform support', 'Customizable UI']
+    image: 'https://images.unsplash.com/photo-1752448633225-d3ec2128851f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    features: ['Route safety scoring', 'Weather adaptation tips', 'Emergency preparedness']
   }
 ];
 

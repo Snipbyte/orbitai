@@ -28,7 +28,7 @@ const ProductCard = ({ product }) => {
         <p className="text-gray-300 text-sm mb-4 line-clamp-2">{product.description}</p>
 
         <div className="flex justify-between items-center mb-4">
-          <span className="text-2xl font-semibold text-blue-400">${product.price}</span>
+          {/* <span className="text-2xl font-semibold text-blue-400">${product.price}</span> */}
           <div className="flex items-center gap-1 text-yellow-400">
             <AiOutlineStar className="w-5 h-5" />
             <span className="text-sm font-medium">{product.rating}/5</span>
