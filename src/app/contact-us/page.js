@@ -4,6 +4,7 @@ import ContactUsMainPage from '../components/contactUs/contactUsMainPage/contact
 const ContactUs = () => {
     return (
         <div>
+            
             <ContactUsMainPage/>
         </div>
     )
