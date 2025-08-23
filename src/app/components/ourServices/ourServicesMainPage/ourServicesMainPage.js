@@ -17,7 +17,7 @@ const OurServicesMainPage = () => {
             <HeroSection/>
             <SolutionSection/>
             <FeaturedSection/>
-            <TeamSection/>
+            {/* <TeamSection/> */}
             <Footer/>
         </div>
     )
