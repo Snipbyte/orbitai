@@ -6,25 +6,25 @@ import Images from "../../common/Image/Image";
 const PlanSection = () => {
     const cardsData = [
         {
-            src: "/images/jpg/ab2.jpg",
+            src: "/images/1.jpg",
             alt: "ai training",
             title: "Advanced",
             subtitle: "Training",
         },
         {
-            src: "/images/jpg/ab4.jpg",
+            src: "/images/2.jpg",
             alt: "ai infrastructure",
             title: "10,000+ Sq. Ft.",
             subtitle: "Infrastructure",
         },
         {
-            src: "/images/jpg/ab1.jpg",
+            src: "/images/3.jpg",
             alt: "ai research",
             title: "Cutting-Edge",
             subtitle: "Research",
         },
         {
-            src: "/images/jpg/ab3.jpg",
+            src: "/images/4.jpg",
             alt: "ai deployment",
             title: "Seamless",
             subtitle: "Deployment",

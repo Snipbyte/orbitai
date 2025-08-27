@@ -13,18 +13,18 @@ const ContactUsMainPage = () => {
             <div className="bg-desColor shadow-[0_0_50px_rgba(155,80,255,0.5)] rounded-2xl md:flex w-full max-w-5xl overflow-hidden">
                 <div className="md:w-[30%] w-full">
                     <Images
-                        src="/images/jpg/contactus.png"
+                        src="/images/abt.jpg"
                         alt="building"
                         className="w-full h-40 md:h-full object-cover"
                     />
                 </div>
 
-                <div className="w-full md:w-[70%] p-10">
+                <div className="w-full  md:w-[70%] p-10">
                     <Link href="/">
                         <Images
                             src="/images/png/logo.png"
                             alt="building"
-                            className="w-48 h-10 mb-5"
+                            className="w-48 mb-5"
                         />
                     </Link>
                     <h2 className="text-3xl font-bold text-white mb-2">
@@ -36,7 +36,7 @@ const ContactUsMainPage = () => {
                             href="mailto:hello@slothui.com"
                             className="text-indigo-600 hover:underline"
                         >
-                            company@gmail.com
+                            aiorbits@gmail.com
                         </a>
                         .
                     </p>
@@ -92,7 +92,7 @@ const ContactUsMainPage = () => {
                             </label>
                             <div className="flex items-center border rounded-lg px-3 py-2 mt-1">
                                 <LuPhone className="text-paraColor mr-2" />
-                                <select
+                                {/* <select
                                     className="text-white bg-transparent outline-none mr-2"
                                     defaultValue="+44"
                                 >
@@ -101,7 +101,7 @@ const ContactUsMainPage = () => {
                                     <option value="+91">🇮🇳 +91</option>
                                     <option value="+86">🇨🇳 +86</option>
                                     <option value="+81">🇯🇵 +81</option>
-                                </select>
+                                </select> */}
                                 <input
                                     type="tel"
                                     placeholder="Enter your phone number..."

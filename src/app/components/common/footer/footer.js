@@ -15,7 +15,7 @@ const Footer = () => {
               <Images
                 src="/images/png/logo.png"
                 alt="building"
-                className="w-48 h-10 mb-5"
+                className="w-48  mb-5"
               />
               <h2 className="text-4xl font-bold">AI Solutions</h2>
               <p className="text-sm text-gray-400 mt-1">
@@ -87,7 +87,7 @@ const Footer = () => {
 
         {/* Legal Footer */}
         <div className="flex flex-col md:flex-row justify-between items-center px-6 md:px-16 py-4 text-sm text-paraColor bg-themeColor">
-          <p>© AI Nexus Solutions 2025</p>
+          <p>© ai-orbits Solutions 2025</p>
           <div className="flex flex-wrap gap-4 mt-2 md:mt-0">
             <p className="hover:text-white cursor-pointer">
               Terms & Conditions

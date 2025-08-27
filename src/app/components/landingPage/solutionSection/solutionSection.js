@@ -14,19 +14,19 @@ const SolutionSection = () => {
             />
             <div className="relative w-full h-[400px] mt-4 sm:mt-5 md:mt-5 lg:mt-5 hidden lg:block">
                 <SolutionCard
-                    imageSrc="/images/jpg/chart.png"
+                    imageSrc="/images/cd.jpg"
                     heading="Cair Drive"
                     description="Real-time driver behavior analysis with drowsiness and distraction detection for enhanced fleet safety."
                     className="absolute left-20 top-44 rotate-6"
                 />
                 <SolutionCard
-                     imageSrc="/images/jpg/chart.png"
+                     imageSrc="/images/cm.jpg"
                     heading="Cair Monitoring"
                     description="Edge computing-powered security monitoring with instant alerts and customizable solutions."
                     className="absolute right-60 top-16 -rotate-6 transform -translate-x-1/2 z-10"
                 />
                 <SolutionCard
-                    imageSrc="/images/jpg/chart.png"
+                    imageSrc="/images/jms.jpg"
                     heading="Journey Management System (JMS)"
                     description="AI-driven route optimization and safety scoring for secure and efficient travel."
                     className="absolute right-20 -top-40 rotate-6"
@@ -40,19 +40,19 @@ const SolutionSection = () => {
                 }}
             >
                 <SolutionCard
-                    imageSrc="/images/jpg/chart.png"
+                    imageSrc="/images/cd.jpg"
                     heading="Cair Drive"
                     description="Real-time driver behavior analysis with drowsiness and distraction detection for enhanced fleet safety."
                     className="w-full min-h-[300px] flex-shrink-0"
                 />
                 <SolutionCard
-                     imageSrc="/images/jpg/chart.png"
+                     imageSrc="/images/cm.jpg"
                     heading="Cair Monitoring"
                     description="Edge computing-powered security monitoring with instant alerts and customizable solutions."
                     className="w-full min-h-[300px] flex-shrink-0"
                 />
                 <SolutionCard
-                    imageSrc="/images/jpg/chart.png"
+                    imageSrc="/images/jms.jpg"
                     heading="Journey Management System (JMS)"
                     description="AI-driven route optimization and safety scoring for secure and efficient travel."
                     className="w-full min-h-[300px] flex-shrink-0"

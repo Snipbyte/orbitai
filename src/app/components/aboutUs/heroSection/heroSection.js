@@ -24,14 +24,14 @@ const HeroSection = () => {
 
                     <div className="w-full lg:w-[50%]">
                         <Images
-                            src="/images/jpg/ab1.jpg"
+                            src="/images/gh.jpg"
                             alt="AI Technology"
                             className="rounded-[30px] w-full h-48 sm:h-64 md:h-72 lg:h-80 object-cover shadow-[0_0_50px_rgba(155,80,255,0.8)]"
                         />
                     </div>
                     <div className="flex flex-col items-start justify-center w-full lg:w-[30%]">
                         <Images
-                            src="/images/jpg/ab2.jpg"
+                            src="/images/abt01.jpg"
                             alt="AI Philosophy"
                             className="rounded-[30px] w-full h-36 sm:h-40 lg:h-44 object-cover mb-6 shadow-[0_0_50px_rgba(155,80,255,0.8)]"
                         />

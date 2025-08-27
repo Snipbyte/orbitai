@@ -17,7 +17,7 @@ const ProductCard = ({ product }) => {
             className="w-full h-full object-cover transform transition-transform duration-700 
                       group-hover:scale-110"
           />
-          <div className="absolute top-3 left-3 bg-blue-600 text-white text-xs font-semibold 
+          <div className="absolute top-3 left-3 bg-[0_0_50px_rgba(155,80,255,0.5)] text-white text-xs font-semibold 
                          px-3 py-1 rounded-full flex items-center gap-1">
             <AiFillThunderbolt className="w-4 h-4" />
             AI-Powered
@@ -44,12 +44,12 @@ const ProductCard = ({ product }) => {
           ))}
         </ul>
 
-        <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold
+        {/* <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold
                           hover:bg-blue-700 transition-colors duration-300
                           flex items-center justify-center gap-2 group-hover:shadow-lg">
           Explore Now
           <AiOutlineArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-        </button>
+        </button> */}
       </div>
 
       <div className="absolute inset-0 border-2 border-transparent rounded-2xl 
