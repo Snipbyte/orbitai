@@ -6,7 +6,7 @@ import { IoDiamondSharp, IoRocketOutline } from "react-icons/io5";
 const cardData = [
     {
         title: "Branding & Design",
-        image: "/images/sbnr1.jpg",
+        image: "/images/lp1.jpg",
         description:
             "Branding and design are creative processes and strategic messaging to craft compelling marketing solutions.",
         imgTitle: "Creative Branding",
@@ -16,7 +16,7 @@ const cardData = [
     },
     {
         title: "Campaign Development",
-        image: "/images/sbnr2.jpg",
+        image: "/images/lp2.jpg",
         description:
             "This process ensures tailored solutions that drive engagement and conversions for your business.",
         imgTitle: "Marketing Campaigns",

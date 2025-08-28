@@ -22,7 +22,7 @@ const HeroSection = () => {
             </div>
             <div className="px-4 sm:px-6 md:px-8 lg:px-12 pb-16 md:pb-24">
                 <Images
-                    src="/images/bnr.jpg"
+                    src="/images/hero-img.jpg"
                     className="w-full max-w-[95%] mx-auto h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] rounded-xl shadow-[0_0_50px_rgba(155,80,255,0.8)] border border-gray-800 object-cover"
                 />
             </div>
