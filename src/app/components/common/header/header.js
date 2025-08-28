@@ -58,9 +58,8 @@ export default function Header() {
             {[
               { name: "Home", link: "/" },
               { name: "About Us", link: "/about-us" },
-
-              { name: "Our Products", link: "/our-products" },
               { name: "Our Services", link: "/our-services" },
+              { name: "Our Products", link: "/our-products" },
             ].map((item) => (
               <div
                 className="flex items-center justify-between px-4 border-b border-b-gray-700"
@@ -121,11 +120,11 @@ export default function Header() {
               <a href="/about-us" className="text-xs uppercase font-medium">
                 About us
               </a>
-             
+
               <a href="/our-services" className="text-xs uppercase font-medium">
                 Our Services
               </a>
-               <a href="/our-products" className="text-xs uppercase font-medium">
+              <a href="/our-products" className="text-xs uppercase font-medium">
                 Our Products
               </a>
               <a href="/contact-us" className="text-xs uppercase font-medium">
