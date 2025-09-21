@@ -13,19 +13,19 @@ const WorkingSection = () => {
                         date: 'March, 2022 – July, 2022',
                         title: 'AI Research Lead',
                         company: 'AI Orbits, Khubar, Saudi Arabia',
-                        description: 'Developed foundational algorithms for Cair Drive’s driver behavior analysis system.'
+                        description: 'Developed foundational algorithms for CAIR Drive’s driver behavior analysis system.'
                     },
                     {
                         date: 'August, 2022 – May, 2023',
                         title: 'Senior AI Engineer',
                         company: 'AI Orbits, Khubar, Saudi Arabia',
-                        description: 'Led the integration of real-time drowsiness detection for Cair Drive.'
+                        description: 'Led the integration of real-time drowsiness detection for CAIR Drive.'
                     },
                     {
                         date: 'June, 2023 – November, 2023',
                         title: 'Director of AI Monitoring Solutions',
                         company: 'AI Orbits, Khubar, Saudi Arabia',
-                        description: 'Spearheaded the launch of Cair Monitoring, powered by edge computing for security.'
+                        description: 'Spearheaded the launch of CAIR Monitoring, powered by edge computing for security.'
                     },
                     {
                         date: 'December, 2023 – July, 2024',
@@ -37,7 +37,7 @@ const WorkingSection = () => {
                         date: 'August, 2024 – October, 2025',
                         title: 'Chief AI Strategist',
                         company: 'AI Orbits, Khubar, Saudi Arabia',
-                        description: 'Driving innovation across Cair Drive, Cair Monitoring, and JMS with advanced AI solutions.'
+                        description: 'Driving innovation across CAIR Drive, CAIR Monitoring, and JMS with advanced AI solutions.'
                     },
                 ].map((item, index) => (
                     <div

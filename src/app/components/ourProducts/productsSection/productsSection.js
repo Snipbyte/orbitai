@@ -4,7 +4,7 @@ import ProductCard from '../productCard/productCard';
 const products = [
   {
     id: 1,
-    name: 'Cair Drive',
+    name: 'CAIR Drive',
     description: 'Advanced AI-powered driver camera system for real-time behavior analysis and fleet safety.',
     rating: 4.8,
     image: '/images/cd.jpg',
@@ -13,7 +13,7 @@ const products = [
   },
   {
     id: 2,
-    name: 'Cair Monitoring',
+    name: 'CAIR Monitoring',
     description: 'Cutting-edge security and monitoring solution powered by edge computing for real-time insights.',
     rating: 4.9,
     image: '/images/cm.jpg',

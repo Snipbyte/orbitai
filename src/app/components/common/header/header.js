@@ -60,6 +60,7 @@ export default function Header() {
               { name: "About Us", link: "/about-us" },
               { name: "Our Services", link: "/our-services" },
               { name: "Our Products", link: "/our-products" },
+              { name: "Contact Us", link: "/contact-us" },
             ].map((item) => (
               <div
                 className="flex items-center justify-between px-4 border-b border-b-gray-700"
