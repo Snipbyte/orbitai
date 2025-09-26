@@ -81,7 +81,7 @@ export default function Header() {
 
       {/* Header */}
       <header
-        className={`w-full sticky top-0 left-0 right-0 z-20 bg-themeColor text-white shadow-sm transform transition-transform duration-500 ${
+        className={`w-full sticky top-0 left-0 right-0 z-20 bg-white text-black shadow-sm transform transition-transform duration-500 ${
           showHeader ? "translate-y-0" : "-translate-y-full"
         }`}
       >
@@ -105,8 +105,15 @@ export default function Header() {
           <div className="w-[15%] h-full sm:w-[18%] xs:w-[20%] flex items-center justify-center mx-auto md:mx-0 cursor-pointer">
             <a href="/">
               <Images
-                className="w-full md:h-full max-h-16 py-4 object-contain select-none"
-                src={"/images/png/logo.png"}
+                className="w-full md:h-full max-h-24 py-4 object-contain select-none"
+                src={"/images/png/ico.png"}
+                alt="orbitAi Logo"
+              />
+            </a>
+            <a href="/">
+              <Images
+                className="w-full ms-3 md:h-full max-h-16 py-4 object-contain select-none"
+                src={"/images/png/lgo.png"}
                 alt="orbitAi Logo"
               />
             </a>

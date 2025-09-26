@@ -15,7 +15,7 @@ const LandingMainPage = () => {
             <Header/>
             <HeroSection/>
             <AboutSection/>
-            <MarqueeSection/>
+            {/* <MarqueeSection/> */}
             <InfoSection/>
             <WorkingSection/>
             <SolutionSection/>
