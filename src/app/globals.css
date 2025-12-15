@@ -1,6 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  /* Font Families */
+  --font-family-poppins: Poppins, sans-serif;
+  
+  /* Custom Colors */
+  --color-darkCard: #1e293b;
+  --color-lightCard: #f3f4f6;
+  --color-headingColor: #0f172a;
+  --color-slateColor: #cbd5e1;
+  --color-desColor: #0f172a;
+  --color-paraColor: #9ca3af;
+  --color-btnColor: #0f172a;
+  --color-blueColor: #4f46e5;
+  --color-hoverBtnColor: #1e293b;
+  --color-themeColor: #020617;
+  
+  /* Custom Animations */
+  --animate-marqueeXtoY: scrollXtoY 10s linear infinite;
+  --animate-marqueeYtoX: scrollYtoX 10s linear infinite;
+}
+
+@keyframes scrollXtoY {
+  0% { transform: translateY(50%); }
+  100% { transform: translateY(-50%); }
+}
+
+@keyframes scrollYtoX {
+  0% { transform: translateY(-50%); }
+  100% { transform: translateY(50%); }
+}
 
 @layer utilities {
   @keyframes fade-slide {
